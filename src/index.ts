@@ -1,6 +1,6 @@
 // index.ts (Arquivo principal modularizado)
 import * as readline from 'readline';
-import { criarCategoria, listarCategorias, buscarCategoria, atualizarCategoria, removerCategoria } from './funcoes/CategoriaFunc';
+import { criarCategoria, listarCategorias, buscarCategoria, atualizarCategoria, removerCategoria } from './funcoes/CategoryFunc';
 import { criarProduto, listarProdutos, buscarProduto, atualizarProduto, removerProduto } from './funcoes/ProdutoFunc';
 
 const rl = readline.createInterface({
